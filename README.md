@@ -9,7 +9,9 @@ https://github.com/kaniska-m/Image-prediction-using-docker/assets/153006677/acd2
 
 ## Build model : 
 
-I've used use a pretrained (and effective) Convolutional Neural Network model for image classification : 
+I've used use a pretrained (and effective) Convolutional Neural Network model for image classification 
+
+
 link to model -->  https://huggingface.co/spaces/Sa-m/Dogs-vs-Cats/blob/main/best_model.h5
 
 [model.py](./best_model.py) describe how to load the model, preprocess images in order to be used by that model, and make predictions.
