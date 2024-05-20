@@ -4,7 +4,8 @@ In this tutorial we will try to walk together through all the building blocks of
 
 As a case study, we’ll be creating a web interface for image recognition using the pretrained model.
 
-
+## DEMO FILE:
+https://github.com/kaniska-m/Image-prediction-using-docker/assets/153006677/acd2dbb3-a335-4f3d-b103-13d360b18c15
 
 ## Build model : 
 
@@ -43,6 +44,10 @@ Once this is running, you should be able to view your app running in your browse
 ```
 http://localhost:5000/upload
 ```
+
+
+
+
 
 
 
