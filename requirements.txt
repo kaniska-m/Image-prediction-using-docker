@@ -1,0 +1,6 @@
+Flask
+Flask-Reuploaded
+tensorflow
+Keras
+Keras-Preprocessing
+pillow
