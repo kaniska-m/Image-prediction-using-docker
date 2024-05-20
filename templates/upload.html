@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload and Prediction</title>
+</head>
+<body style="font-family: Arial, sans-serif;  background: linear-gradient(to bottom, #ffffff, #2a415a); display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+    <div class="container" style="background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 300px; text-align: center;">
+        <h1 style="font-size: 24px; margin-bottom: 20px;">Upload an Image for Prediction</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <div class="form-group" style="margin-bottom: 15px; text-align: left;">
+                <label for="photo" style="display: block; margin-bottom: 5px; font-weight: bold;">Choose an image</label>
+                <input type="file" id="photo" name="photo" accept="image/*" required style="width: 100%; padding: 5px;">
+            </div>
+            <button type="submit" style="background-color: #2a415a; color: #fff; border: none; padding: 10px 15px; font-size: 16px; border-radius: 5px; cursor: pointer;">Upload</button>
+        </form>
+    </div>
+</body>
+</html>
